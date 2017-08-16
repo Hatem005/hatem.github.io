@@ -1,0 +1,111 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding{
+        padding: 80px 0px;
+}
+.container{
+
+}
+.qute-from-wrep{
+        text-align: center;
+}
+.qute-from-wrep img{
+    
+}
+.blue-quote-from{
+    background-color: #19B5FE;
+    max-width: 770px;
+    margin-top: -85px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.blue-quote-from h3{
+    padding-top: 30px;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+.blue-quote-from input, .blue-quote-from textarea{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #ffffff;
+    color: #fff;
+    width: 100%;
+    margin-top: 60px;
+    height: 36px;
+
+}
+ 
+/* Different color for some fields */
+
+::-webkit-input-placeholder,
+.blue-quote-from::-webkit-input-placeholder
+{
+  color:    #d1eefc;
+}
+
+.blue-quote-from:-moz-placeholder,
+.blue-quote-from:-moz-placeholder 
+{
+  color:    #d1eefc;
+}
+
+.blue-quote-from::-moz-placeholder,
+.blue-quote-from::-moz-placeholder 
+{
+  color:    #d1eefc;
+}
+
+.blue-quote-from:-ms-input-placeholder,
+.blue-quote-from:-ms-input-placeholder 
+{
+  color:    #d1eefc;
+}
+
+.blue-quote-bottom{
+        text-align: center;
+
+}
+.blue-form-submit{
+    padding-top: 50px;
+        padding-bottom: 55px;
+}
+.blue-form-submit button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #4ec0fe;
+    background: #ffffff;
+    border-radius: 5px;
+}
+}
