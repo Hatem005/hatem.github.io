@@ -41,7 +41,7 @@ a:hover { text-decoration: none }
 .qute-from-wrep img{
     
 }
-.blue-quote-from{
+.blue-quote-form{
     background-color: #19B5FE;
     max-width: 770px;
     margin-top: -85px;
@@ -49,14 +49,36 @@ a:hover { text-decoration: none }
     padding-left: 100px;
 }
 
-.blue-quote-from h3{
+.blue-quote-form h3{
     padding-top: 30px;
     font-size: 26px;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
 }
-.blue-quote-from input, .blue-quote-from textarea{
+.blue-quote-form h3::before{
+    background: #fff;
+    margin-top: 55px;
+    height: 1px;
+    left: 50%;
+    margin-left: -65px;
+    position: absolute;
+    width: 130px;
+    content: "";
+}
+.blue-quote-form h3::after{
+    background: #19b5fe;
+    margin-top: 49px;
+    height: 13px;
+    width: 13px;
+    left: 50%;
+    margin-left: -6.5px;
+    position: absolute;
+    content: "";
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.blue-quote-form input, .blue-quote-form textarea{
     border: none;
     background: none;
     border-bottom: 1px solid #ffffff;
